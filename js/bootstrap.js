@@ -299,7 +299,7 @@
   Carousel.prototype = {
 
     cycle: function (e) {
-      if (!e) this.paused = false
+      if (!e) this.paused = true
       if (this.interval) clearInterval(this.interval);
       this.options.interval
         && !this.paused
