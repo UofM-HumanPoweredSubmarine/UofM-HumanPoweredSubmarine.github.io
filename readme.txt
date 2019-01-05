@@ -1,0 +1,1 @@
+For setup instructions, please check the 'Documentation' folder.
